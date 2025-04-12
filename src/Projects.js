@@ -115,7 +115,7 @@ const projects=[
       "Integration with Email & SMS notification services",
       "Attendance & Fee Management Modules"
     ],
-    github: "https://github.com/username/student-management-system"
+    github: "https://github.com/Stephenjoseph2604/Student-Management-System"
   }
   ,
   {
@@ -159,7 +159,7 @@ const projects=[
       "Passenger chat system",
       "Rewards & cash prize for passengers"
     ],
-    github: "https://github.com/username/bus-booking-app",
+    github: "",
     
    
   },
@@ -206,7 +206,7 @@ const projects=[
       "Introduce user dashboards with order history",
       "Enable email notifications for admin responses"
     ],
-    github: "https://github.com/username/book-shop-management"
+    github: "https://github.com/Stephenjoseph2604/Book_Shop_Management"
   }
   ,
   {
@@ -252,7 +252,7 @@ const projects=[
       "Include GitHub contribution graph and visitor counter",
       "Theme switcher (Dark/Light mode)"
     ],
-    github: "https://github.com/username/modern-portfolio"
+    github: "https://github.com/Stephenjoseph2604/Mordern_Portfolio"
   }
   ,{
     id: 5,
@@ -296,7 +296,7 @@ const projects=[
       "Theme toggle (day/night)",
       "Save favorite cities"
     ],
-    github: "https://github.com/username/weather-app"
+    github: "https://github.com/Stephenjoseph2604/WeatherApp-React-js"
   }
   ,{
     id: 6,
@@ -339,7 +339,7 @@ const projects=[
       "Download password as text file",
       "User alerts for weak configuration selections"
     ],
-    github: "https://github.com/username/strong-password-generator"
+    github: "https://github.com/Stephenjoseph2604/Strong_Password_Generator-React"
   }
   
   

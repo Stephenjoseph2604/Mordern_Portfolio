@@ -50,7 +50,7 @@ export default Education
 
 const Educ = ({ ...edu }) => {
     return (
-        <div  className='grid lg:grid-cols-[150px_400px_350px] gap-2 items-center justify-center pb-7 pt-7 border-b dark:border-(--bordercolor) border-(--lightborder)'>
+        <div  className='grid lg:grid-cols-[150px_400px_350px] gap-2 items-center justify-center pb-7 pt-7 lg:pl-10 border-b dark:border-(--bordercolor) border-(--lightborder)'>
         <p className='dark:text-(--light) text-(--dark) md:text-xl'>{edu.period}</p>
         <div className='dark:text-(--light) text-(--dark) pr-4'>
             <h3 className=' text-xl md:text-2xl  font-[700] hover:underline cursor-pointer transition-all'>{edu.name} </h3>

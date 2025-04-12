@@ -41,7 +41,7 @@ const ProjectDetails = () => {
     <div className="fixed w-screen h-screen overflow-y-scroll bg-transparent backdrop-blur-[15px] top-0 left-0 z-40">
       <div className="max-w-3xl mx-auto p-6">
         <div className="bg-(--lightbg1) dark:bg-(--bgcolor2) shadow-lg rounded-2xl p-6">
-          <h1 className="text-3xl font-bold mb-7 text-(--dark) dark:text-(--light)">
+          <h1 className="text-3xl font-bold mb-7 text-(--lightfont2) dark:text-(--font-1)">
             {project.title}
           </h1>
 
@@ -52,14 +52,14 @@ const ProjectDetails = () => {
               className=" h-100 object-contain rounded-md shadow-md"
             />
           </div>
-          <h2 className="text-xl font-semibold mt-6 mb-3 text-(--dark) dark:text-(--light)">
+          <h2 className="text-xl font-semibold mt-6 mb-3 text-(--lightfont2) dark:text-(--font-1)">
             📌 Over view
           </h2>
           <p className="text-(--bordercolor) dark:text-(--lightborder) mb-4">
             {project.overview}
           </p>
 
-          <h2 className="text-xl font-semibold mt-6 mb-3 text-(--dark) dark:text-(--light)">
+          <h2 className="text-xl font-semibold mt-6 mb-3 text-(--lightfont2) dark:text-(--font-1)">
             ✨ Key Features
           </h2>
           <ul className="list-none ml-3 list-inside text-(--bordercolor) dark:text-(--lightborder) space-y-2">
@@ -71,7 +71,7 @@ const ProjectDetails = () => {
             ))}
           </ul>
 
-          <h2 className="text-xl font-semibold mt-6 mb-3 text-(--dark) dark:text-(--light)">
+          <h2 className="text-xl font-semibold mt-6 mb-3 text-(--lightfont2) dark:text-(--font-1)">
             <i class="fas fa-tools  mr-1 text-red-600 "></i> Tech Stack
           </h2>
           <div className="text-(--bordercolor) flex flex-col gap-3 dark:text-(--lightborder) ">
@@ -127,7 +127,7 @@ const ProjectDetails = () => {
             </div>
           </div>
 
-          <h2 className="text-xl font-semibold mt-6 text-(--dark) dark:text-(--light)">
+          <h2 className="text-xl font-semibold mt-6 text-(--lightfont2) dark:text-(--font-1)">
             Screenshots
           </h2>
           <div className="relative my-4 overflow-hidden">
@@ -159,7 +159,7 @@ const ProjectDetails = () => {
             </button>
           </div>
           <div>
-            <h2 className="text-xl font-semibold mt-6 mb-2 text-(--dark) dark:text-(--light)">
+            <h2 className="text-xl font-semibold mt-6 mb-2 text-(--lightfont2) dark:text-(--font-1)">
               👨‍💻 My Role
             </h2>
             <ul className="list-none ml-3  list-inside text-(--bordercolor) dark:text-(--lightborder) space-y-2">
@@ -173,7 +173,7 @@ const ProjectDetails = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-xl font-semibold mt-6 mb-2 text-(--dark) dark:text-(--light)">
+            <h2 className="text-xl font-semibold mt-6 mb-2 text-(--lightfont2) dark:text-(--font-1)">
               🧠 What I Learned ?
             </h2>
             <ul className="list-none ml-3  list-inside text-(--bordercolor) dark:text-(--lightborder) space-y-2">
@@ -185,7 +185,7 @@ const ProjectDetails = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-xl font-semibold mt-6 mb-2 text-(--dark) dark:text-(--light)">
+            <h2 className="text-xl font-semibold mt-6 mb-2 text-(--lightfont2) dark:text-(--font-1)">
               🚀 Future Improvements
             </h2>
             <ul className="list-none ml-3  list-inside text-(--bordercolor) dark:text-(--lightborder) space-y-2">
@@ -197,7 +197,7 @@ const ProjectDetails = () => {
             </ul>
           </div>
 
-          <h2 className="text-xl font-semibold mt-6">Links</h2>
+          <h2 className="text-xl font-semibold mt-6 text-(--lightfont2) dark:text-(--font-1)">Links</h2>
           <div className="flex space-x-4 mt-2">
             <a
               href={project.github}
