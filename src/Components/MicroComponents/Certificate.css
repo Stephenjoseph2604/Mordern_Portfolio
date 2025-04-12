@@ -1,0 +1,38 @@
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+   
+  }
+  
+  .marquee-content {
+    display: flex;
+    /* background-color: red; */
+    position: relative;
+   
+    /* animation: marquee 15s linear infinite; */
+  }
+  .marquee-content{
+
+   /* top: 0;
+   left: 0;
+    animation: marquee 15s linear infinite; */
+    mask-image: linear-gradient(to right,rgba(0, 0, 0, 0),rgba(0,0,0,1) 10%,rgba(0,0,0,1) 90%,rgba(0,0,0,0));
+  }
+  
+  /* @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  } */
+  @keyframes marquee {
+    0%{
+      left: 0;
+    }
+    100%{
+      left: -150%;
+    }
+  }
